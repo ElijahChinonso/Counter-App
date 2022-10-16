@@ -1,0 +1,301 @@
+body {
+    background-image: url(trainstation.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#welcome {
+    position: absolute;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    font-size: 50px;
+    padding: 12px;
+    text-align: center;
+    margin-left: 18%;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+#people {
+    position: absolute;
+    font-size: 40px;
+    left: 550px;
+    top: 215px;
+}
+
+#count_el {
+    position: absolute;
+    font-size: 40px;
+    color: azure;
+    text-align: center;
+
+    left: 750px;
+    top: 210px;
+}
+
+#increment_btn {
+    position: absolute;
+    background-color: brown;
+    width: 250px;
+    color: black;
+
+    top: 350px;
+
+
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 3px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    left: 646px;
+    cursor: pointer;
+}
+
+#increment_btn:hover{
+    background-color: aqua;
+}
+
+#save_btn {
+    position: absolute;
+    background-color: green;
+    width: 250px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+
+    top: 410px;
+
+    padding-top: 3px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 41.5%;
+    cursor: pointer;
+}
+#save_btn:hover{
+    background-color: aqua;
+}
+
+#save_el{
+    position: absolute;
+    background-color: rgb(11, 11, 10);
+    color: white;
+    font-style: initial;
+    font-size: 50px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+
+    top: 500px;   
+    
+
+    width: 700px;
+    left: 22%;
+    right: 21%;
+    text-align: start;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(trainstation.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    #welcome {
+        position: absolute;
+        background-color: white;
+        color: black;
+        top: 70px;
+        font-size: 30px;
+        padding: 12px;
+        text-align: center;
+        margin-left: 5%;
+        border: none;
+        border-radius: 8px;
+        
+    }
+
+    #people {
+        position: absolute;
+        font-size: 43px;
+        left: -180px;
+        top: 360px;
+    }
+
+    #count_el {
+        position: absolute;
+        font-size: 40px;
+        color: azure;
+        text-align: center;
+    
+        left: 285px;
+        top: 317px;
+    }
+
+    #increment_btn {
+        position: absolute;
+        background-color: brown;
+        width: 250px;
+        color: black;
+    
+        top: 450px;
+    
+    
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 3px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        left: 25.5%;
+        cursor: pointer;
+    }
+
+    #save_btn {
+        position: absolute;
+        background-color: green;
+        width: 250px;
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    
+        top: 500px;
+    
+        padding-top: 3px;
+        border: none;
+        border-radius: 5px;
+        left: -16%;
+        cursor: pointer;
+    }
+
+    #save_el{
+        position: absolute;
+        background-color: rgb(252, 252, 246);
+        color: black;
+        font-style: initial;
+        font-size: 30px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    
+        top: 600px;   
+        
+    
+        width: 400px;
+        left: 3%;
+        right: 19%;
+        text-align: start;
+        border: none;
+        border-radius: 7px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        background-image: url(trainstation.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    #welcome {
+        position: absolute;
+        background-color: rgb(44, 211, 47);
+        color: white;
+        font-size: 40px;
+
+        top: 100px;
+
+        padding: 13px;
+        text-align: center;
+        margin-left: 8%;
+        border: none;
+        border-radius: 7px;
+    
+    }
+
+    #people {
+        position: absolute;
+        font-size: 40px;
+        left: 240px;
+        top: 340px;
+        color: white;
+    }
+
+    #count_el {
+        position: absolute;
+        font-size: 45px;
+        color: white;
+        text-align: center;
+    
+        left: 450px;
+        top: 330px;
+    }
+
+    #increment_btn {
+        position: absolute;
+        background-color: brown;
+        width: 250px;
+        color: black;
+
+        top: 450px;
+
+
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 3px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        left: 34%;
+        cursor: pointer;
+    }
+
+    #save_btn {
+        position: absolute;
+        background-color: green;
+        width: 250px;
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    
+        top: 510px;
+    
+        padding-top: 3px;
+        border: none;
+        border-radius: 5px;
+        left: -7.5%;
+        cursor: pointer;
+    }
+
+    #save_el{
+        position: absolute;
+        background-color: rgb(80, 220, 11);
+        color: white;
+        font-style: initial;
+        font-size: 28px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+    
+        top: 650px;   
+        
+    
+        width: 500px;
+        margin-left: -2%;
+        margin-right: 19%;
+        text-align: start;
+        border: none;
+        border-radius: 7px;
+        margin-bottom: 8px;
+    }
+    
+    
+}
