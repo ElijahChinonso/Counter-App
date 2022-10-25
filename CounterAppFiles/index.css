@@ -101,6 +101,103 @@ body {
 }
 
 
+@media screen and (min-width: 100px) and (max-width: 414px){
+    body {
+        background-image: url(trainstation.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    #welcome{
+
+    }
+
+    #people {
+        position: absolute;
+        background-color: whitesmoke;
+        width: 160px;
+        font-size: 28px;
+        margin-left: -93px;
+        top: 340px;
+        color: black;
+        padding-left: 10px;
+
+        border: none;
+        border-radius: 7px;
+    }
+
+    #count_el {
+        position: absolute;
+        font-size: 40px;
+        color: azure;
+        text-align: center;
+
+        margin-left: -85px;
+        top: 210px;
+    }
+
+    #increment_btn {
+        position: absolute;
+        background-color: brown;
+        width: 250px;
+        color: black;
+
+        top: 350px;
+
+
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 3px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-left: -86px;
+        cursor: pointer;
+    }
+
+
+    #save_btn {
+        position: absolute;
+        background-color: green;
+        width: 250px;
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
+
+        top: 410px;
+
+        padding-top: 3px;
+        border: none;
+        border-radius: 5px;
+        margin-left: 61.5%;
+        cursor: pointer;
+    }
+
+
+    #save_el{
+        position: absolute;
+        background-color: rgb(11, 11, 10);
+        color: white;
+        font-style: initial;
+        font-size: 20px;
+        padding-left: 15px;
+        padding-bottom: 10px;
+
+        top: 500px;
+
+
+        width: 100px;
+        margin-left: -80px;
+        right: 21%;
+        text-align: start;
+        border: none;
+        border-radius: 7px;
+        margin-bottom: 10px;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     body {
         background-image: url(trainstation.jpg);
@@ -113,11 +210,11 @@ body {
         position: absolute;
         background-color: white;
         color: black;
-        top: 70px;
-        font-size: 30px;
+        top: 120px;
+        left: -98px;
+        font-size: 25px;
         padding: 12px;
         text-align: center;
-        margin-left: 5%;
         border: none;
         border-radius: 8px;
         
@@ -125,46 +222,53 @@ body {
 
     #people {
         position: absolute;
-        font-size: 43px;
-        left: -180px;
-        top: 360px;
+        background-color: whitesmoke;
+        width: 160px;
+        font-size: 28px;
+        left: 190px;
+        top: 340px;
+        color: black;
+        padding-left: 10px;
+
+        border: none;
+        border-radius: 7px;
     }
 
     #count_el {
         position: absolute;
-        font-size: 40px;
-        color: azure;
+        font-size: 28px;
+        color: black;
         text-align: center;
     
-        left: 285px;
-        top: 317px;
+        left: 333px;
+        top: 337px;
     }
 
     #increment_btn {
         position: absolute;
         background-color: brown;
-        width: 250px;
+        width: 220px;
         color: black;
     
-        top: 450px;
+        top: 460px;
     
     
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
         padding-top: 3px;
         border: none;
         border-radius: 5px;
         margin-bottom: 10px;
-        left: 25.5%;
+        left: 160px;
         cursor: pointer;
     }
 
     #save_btn {
         position: absolute;
         background-color: green;
-        width: 250px;
+        width: 220px;
         color: black;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: bold;
     
         top: 500px;
@@ -172,24 +276,24 @@ body {
         padding-top: 3px;
         border: none;
         border-radius: 5px;
-        left: -16%;
+        left: -158px;
         cursor: pointer;
     }
 
     #save_el{
         position: absolute;
-        background-color: rgb(252, 252, 246);
+        background-color: white;
         color: black;
         font-style: initial;
-        font-size: 30px;
+        font-size: 23px;
         padding-left: 15px;
         padding-bottom: 10px;
     
         top: 600px;   
         
     
-        width: 400px;
-        left: 3%;
+        width: 350px;
+        left: 85px;
         right: 19%;
         text-align: start;
         border: none;
@@ -210,13 +314,13 @@ body {
         position: absolute;
         background-color: rgb(44, 211, 47);
         color: white;
-        font-size: 40px;
+        font-size: 35px;
 
         top: 100px;
 
         padding: 13px;
         text-align: center;
-        margin-left: 8%;
+        margin-left: 3%;
         border: none;
         border-radius: 7px;
     
@@ -236,7 +340,7 @@ body {
         color: white;
         text-align: center;
     
-        left: 450px;
+        left: 430px;
         top: 330px;
     }
 
@@ -255,7 +359,7 @@ body {
         border: none;
         border-radius: 5px;
         margin-bottom: 10px;
-        left: 34%;
+        left: 22%;
         cursor: pointer;
     }
 
@@ -272,7 +376,7 @@ body {
         padding-top: 3px;
         border: none;
         border-radius: 5px;
-        left: -7.5%;
+        left: -19.5%;
         cursor: pointer;
     }
 
@@ -289,7 +393,7 @@ body {
         
     
         width: 500px;
-        margin-left: -2%;
+        margin-left: -12%;
         margin-right: 19%;
         text-align: start;
         border: none;

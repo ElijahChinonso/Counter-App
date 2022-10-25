@@ -1,6 +1,6 @@
 // document.getElementById("count-el").innerText = 10
-let saveEl = document.getElementById("save_el")
-let countEl = document.getElementById("count_el")
+let saveEl = document.getElementById("save_el");
+let countEl = document.getElementById("count_el");
 
 
 //Initialize the count as 0, Listen for clicks on the increment button, Increment the count variable when the button is clicked (log it out)
@@ -16,7 +16,7 @@ function increment() {
 function save() {
     let countDash = count + " - "
     saveEl.textContent += countDash
-    countEl.textContent = 0
+    countEl.textContent = "0";
     count = 0
  }
 
